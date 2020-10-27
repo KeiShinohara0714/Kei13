@@ -1,7 +1,7 @@
 var who65 = 'world';
 
 function sayhello65() {
- alert('Hello, ' + who65 + '!');
+ alert('Hello,' + who65 + '!');
 }
 
 function taro65() {
@@ -13,5 +13,5 @@ function hanako65() {
  alert(who65);
 }
 function gakita(){
-    alert('が来た')
+ alert('が来た')
 }
