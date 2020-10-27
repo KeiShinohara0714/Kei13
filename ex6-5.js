@@ -1,9 +1,9 @@
-var who65 = 'world';
 function sayhello65() {
+var who65 = 'world';
  alert('Hello, ' + who65 + '!');
 }
 function taro65() {
- who = '太郎';
+ who65 = '太郎';
 function hanako65() {
- who = '花子';}
- 
+ who65 = '花子';
+}
