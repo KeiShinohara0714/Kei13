@@ -2,7 +2,7 @@ function txtchange1() {
   document.getElementById('txt1').innerHTML = 'ナンバーワン!';  
 }
 function imgchange1() {
-  document.getElementById('logo').src = './image/bulbon.gif';    
+  document.getElementById('logo').src = './image/josai.gif';    
 }
 function show_innerHTMLtxt1(){
   var result1 = document.getElementById('txt1').innerHTML;
