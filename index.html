@@ -19,6 +19,7 @@
   <script src="ex07-1.js"></script>
   <script src="ex07-3.js"></script>
   <script src="ex07-4.js"></script>
+  <script src="ex07-5.js"></script>
   <link rel="stylesheet" href="imagechange.css">
 
  </head>
@@ -280,7 +281,7 @@ onclick="alert('Hello, Kei!');">
 <input type="button" value="テキストの変更" onclick="txtchange1();">城西大学</div>
  <br>
 <input type="button" value="画像の変更" onclick="imgchange1();">
-<img src='./image/josai.png' id="logo" alt="Josai.png">
+<img src='./image/josai.png' id="logo" alt="Josai.Logo"></div>
 <br>
 
 <h1>タイマーイベントによる実行6-10</h1>
@@ -308,7 +309,8 @@ onclick="alert('Hello, Kei!');">
 <br>
 <h1>タイマーイベントによる実行の応用6-13/h1>
 <div id="back"> 
-    <input type="button" value="画像後3秒でまた戻る"
+<input type="button" value="変更後3秒でまた戻る" onclick="changeImageAndBack();">
+<img src='./image/bulbon.gif' id="img3" alt="Bulb Logo" class="imagechange">
 </div>
 <br>
 
@@ -321,6 +323,19 @@ onclick="alert('Hello, Kei!');">
   <input type="text" id="input1"> +  <input type="text" id="input2">
   <input type="button" value="計算" onclick="add();"> 
 </p><br>
-    
+
+<h1>ボディマス指数07-4 低体重・普通・肥満、判定込</h1> 
+<p>
+  体重<input type="text" id="1input"> + 身長(ｍ) <input type="text" id="2input"> 
+   <input type="button" value="計算" onclick="add2();"> 
+</p><br>
+<h1>なぞなぞ07-5 あたりのみ</h1>
+<p>目を閉じてないと見られないものはなーに?</p>
+<p>
+   答(漢字1文字で): <input type="text" id="answer">
+    <input type="button" value="解答" onclick="nazo();"> 
+</p><br>
+
+<h1>なぞなぞ07-6 あたりとはずれ</h1>
 </body>
 </html>
