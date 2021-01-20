@@ -1,6 +1,4 @@
-function ThreeSecChange() {
-  setInterval("imgchnge12()",3000); }
-
-  function imgchange12() {
-    document.getElementById('logo2').src = './image/josai.gif';  
-  }
+function changeImageAndBack(){imgback612();ThreeSecChange612();}
+function ThreeSecChange612(){setTimeout("imgchange612()",3000);}
+function imgchange612(){document.getElementById('img13').src = './image/Josai.png';}
+function imgback612(){document.getElementById('img13').src = './image/bulbon.gif';}
