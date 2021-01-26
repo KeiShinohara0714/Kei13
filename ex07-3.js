@@ -1,6 +1,5 @@
-
 function add(){
   var x = document.getElementById('input1').value;
   var y = document.getElementById('input2').value;
-  alert(Numeber(x)+Numeber(y));
+  alert(Number(x)+Number(y));
 }
